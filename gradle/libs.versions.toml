@@ -17,13 +17,14 @@ constraintlayout = "2.2.1"
 roomCompiler = "2.6.1"
 roomKtx = "2.6.1"
 roomRuntime = "2.6.1"
-tensorflowLiteMetadata = "0.4.4"
-tensorflowLiteSupport = "0.4.4"
-tensorflowLiteTaskVision = "0.4.4"
+tensorflowLiteMetadata = "0.5.0"
+tensorflowLiteSupport = "0.5.0"
+tensorflowLiteTaskVision = "0.5.0"
 ucrop = "2.2.9"
 
 lifecycleLivedataKtx = "2.8.7"
 lifecycleViewmodelKtx = "2.8.7"
+tensorflowLiteGpu = "2.3.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -49,6 +50,7 @@ ucrop = { module = "com.github.yalantis:ucrop", version.ref = "ucrop" }
 
 androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
 androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+tensorflow-lite-gpu = { group = "org.tensorflow", name = "tensorflow-lite-gpu", version.ref = "tensorflowLiteGpu" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
